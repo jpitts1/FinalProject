@@ -1,5 +1,5 @@
 p {
-    font-size: large;
+    font-size: x-large;
 }
 
 nav ul {
@@ -12,4 +12,12 @@ nav ul {
 
 nav ul li {
     display: inline-block
+}
+
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+figcaption {
+    font-style: italic;
 }
