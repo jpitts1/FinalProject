@@ -1,5 +1,7 @@
 p {
     font-size: x-large;
+    line-height: 1.8;
+    text-align: center;
 }
 
 nav ul {
@@ -16,8 +18,23 @@ nav ul li {
 
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
 figcaption {
     font-style: italic;
 }
+
+img#img001, img#img002 {
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2, h3, h4, h5, h6 {
+    font-size: 24px;
+}
+
+  
