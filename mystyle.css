@@ -37,4 +37,49 @@ h2, h3, h4, h5, h6 {
     font-size: 24px;
 }
 
+nav {
+    text-align: center;
+}
+
+
+a {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+}
+
+img {
+    display: block;
+    margin: 0 auto 10px auto;
+}
+
+@media (max-width: 768px) {
+    body {
+      margin-left: 10px;  /* Smaller left margin */
+      margin-right: 10px; /* Smaller right margin */
+    }
+  }
+
+  /* Portrait mode (height > width) */
+@media (orientation: portrait) {
+    .my-element {
+      width: 90%;  /* Full width in portrait */
+      margin-top: 20px;  /* Add some space at the top in portrait */
+    }
+  }
+  
+  /* Landscape mode (width > height) */
+  @media (orientation: landscape) {
+    .my-element {
+      width: 60%;  /* Make the element smaller in landscape mode */
+      margin-top: 50px;  /* Add some space on top in landscape mode */
+    }
+  }
+
+  footer {
+    font-size: 6px;
+  }
+
   
