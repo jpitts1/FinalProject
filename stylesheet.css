@@ -81,3 +81,15 @@ img {
   footer {
     font-size: 6px;
   }
+
+img#img101 {
+    position: fixed; /* Fixed position keeps it in place while scrolling */
+    top: 10px;        /* Adjust as per your preference */
+    right: 10px;      /* Adjust as per your preference */
+    width: 100px;     /* Set the logo size */
+    height: auto;     /* Maintain aspect ratio */
+    z-index: 1000;    /* Ensure it stays on top of other content */
+}
+
+
+
