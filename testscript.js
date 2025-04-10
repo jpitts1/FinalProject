@@ -1,6 +1,4 @@
-myitem = document.getElementById("firsttest"); 
+document.getElementById("myText").addEventListener("click", function(){
+    this.style.fontSize = "48px";
+})
 
-myitem.addEventListener("click", onClick); 
-
-function onClick() { 
-    myitem.style.color = "blue";   }
