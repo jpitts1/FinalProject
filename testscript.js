@@ -1,5 +1,6 @@
-myitem.addEventListener("click", onClick); // Makes an action happen when you click the text.
+myitem = document.getElementById("firsttest"); 
 
-function onClick() {  // When you click the text, it turns it green.
-    myitem.style.color = "blue"
-}
+myitem.addEventListener("click", onClick); 
+
+function onClick() { 
+    myitem.style.color = "blue";   }
